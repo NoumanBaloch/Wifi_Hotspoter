@@ -35,7 +35,7 @@ namespace WIFI_HotSpoter
         private void btnStop_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("cmd", "/c netsh wlan stop hostednetwork");
-            MessageBox.Show("WIFI_HotSpote Stoped Successfuly");
+            MessageBox.Show("WIFI_HotSpoter Stoped Successfuly");
         }
 
         private void lnkPasswordShowHide_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
